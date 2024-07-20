@@ -1,0 +1,16 @@
+Add Component: Footprint Not Found SOT23-6L_STM
+Added Component: Designator=R1(RC0402N_YAG)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin CR1-1
+Add Pin To Net: Unknown Pin: Pin CR1-2
+Add Pin To Net: Unknown Pin: Pin CR1-3
+Add Pin To Net: Unknown Pin: Pin CR1-4
+Add Pin To Net: Unknown Pin: Pin CR1-5
+Add Pin To Net: Unknown Pin: Pin CR1-6
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=NetC6_1 Pin=U1-23
+Add Class Member: Failed to add class member : Component CR1 USBLC6-4SC6
+Added Member To Class: ClassName=PSU Member=Component R1 470R

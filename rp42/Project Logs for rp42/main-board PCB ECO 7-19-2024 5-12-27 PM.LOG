@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=3V Pin=Q?-2
+Removed Pin From Net: NetName=3V PERPH Pin=Q?-3
+Removed Member From Class: ClassName=PSU Member=Q?
+Added Component: Designator=U6(SC-70_C5_MCH)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Pin To Net: NetName=3V PERPH Pin=U3-8
+Added Pin To Net: NetName=NetC9_2 Pin=U6-1
+Added Pin To Net: NetName=GND Pin=U6-2
+Added Pin To Net: NetName=3V PERPH Pin=U6-5
+Added Pin To Net: NetName=NetU2_61 Pin=U2-61
+Added Pin To Net: NetName=NetU2_61 Pin=U6-3
+Added Net: Name=NetU2_61
+Added Member To Class: ClassName=PSU Member=Component U6 MIC5365-3.0YC5-TR

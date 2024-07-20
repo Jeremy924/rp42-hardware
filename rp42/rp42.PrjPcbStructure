@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=main-board.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=main-board.SchDoc|Designator=keyboard|SchDesignator=keyboard|FileName=input_matrix.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=input_matrix.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=main-board.SchDoc|Designator=mcu|SchDesignator=mcu|FileName=mcu.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=mcu.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=main-board.SchDoc|Designator=PSU|SchDesignator=PSU|FileName=PSU.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=PSU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=main-board.SchDoc|Designator=screen|SchDesignator=screen|FileName=screen.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=screen.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

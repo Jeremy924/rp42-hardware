@@ -1,0 +1,12 @@
+Added Component: Designator=CR1(SOT23-6L_STM)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=D+ Pin=CR1-1
+Added Pin To Net: NetName=GND Pin=CR1-2
+Added Pin To Net: NetName=D- Pin=CR1-3
+Added Pin To Net: NetName=NetCR1_4 Pin=CR1-4
+Added Pin To Net: NetName=5V USB Pin=CR1-5
+Added Pin To Net: NetName=NetCR1_6 Pin=CR1-6
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Member To Class: ClassName=main-board Member=Component CR1 USBLC6-4SC6

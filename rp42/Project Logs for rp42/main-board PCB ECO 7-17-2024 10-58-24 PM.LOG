@@ -1,0 +1,37 @@
+Add Component: Footprint Not Found SOT23-6L_STM
+Added Component: Designator=J1(AMPHENOL_10118192-0002LF)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/10118192-0002LF/Amphenol+FCI/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Amphenol ICC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "10118192-0002LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/10118192-0002LF/Amphenol+FCI/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin CR1-2
+Add Pin To Net: Unknown Pin: Pin CR1-5
+Add Pin To Net: Unknown Pin: Pin CR1-6
+Added Pin To Net: NetName=5V USB Pin=J1-1
+Added Pin To Net: NetName=5V USB Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-S1
+Added Pin To Net: NetName=GND Pin=J1-S2
+Added Pin To Net: NetName=GND Pin=J1-S3
+Added Pin To Net: NetName=GND Pin=J1-S4
+Added Pin To Net: NetName=GND Pin=J1-S5
+Added Pin To Net: NetName=GND Pin=J1-S6
+Add Pin To Net: Unknown Pin: Pin R1-1
+Add Pin To Net: Unknown Pin: Pin R1-2
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Added Pin To Net: NetName=NetC6_1 Pin=U1-23
+Added Pin To Net: NetName=ROW5 Pin=U2-41
+Added Pin To Net: NetName=D+ Pin=U2-45
+Added Net: Name=D+
+Added Pin To Net: NetName=D- Pin=U2-44
+Added Net: Name=D-
+Added Pin To Net: NetName=NetCR1_4 Pin=J1-2
+Added Net: Name=NetCR1_4
+Add Class Member: Failed to add class member : Component CR1 USBLC6-4SC6
+Added Member To Class: ClassName=main-board Member=Component J1 10118192-0002LF
+Add Class Member: Failed to add class member : Component R1 Resistor
+Add Class Member: Failed to add class member : Component R2 Resistor

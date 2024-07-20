@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=ROW2 Pin=S14-1
+Removed Pin From Net: NetName=ROW2 Pin=S14-1
+Removed Pin From Net: NetName=COL1 Pin=S14-2
+Removed Pin From Net: NetName=COL1 Pin=S14-2
+Removed Pin From Net: NetName=V3.3 Pin=U1-34
+Removed Pin From Net: NetName=V3.3 Pin=U1-35
+Removed Member From Class: ClassName=keyboard Member=S14
+Added Component: Designator=Q?(SOT95P240X120-3N)
+Add component (AddParameter): Name = "Availability"; Value = "Good"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BSS84/ON%20Semiconductor/view-part/4792720/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BSS84"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23 ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/BSS84/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BSS84/ON%20Semiconductor/view-part/4792720/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found RC0402N_YAG
+Added Pin To Net: NetName=3V Pin=Q?-2
+Added Pin To Net: NetName=NetC6_1 Pin=U1-23
+Added Pin To Net: NetName=3V PERPH Pin=Q?-3
+Added Pin To Net: NetName=3V PERPH Pin=U1-34
+Added Pin To Net: NetName=3V PERPH Pin=U1-35
+Added Net: Name=3V PERPH
+Added Pin To Net: NetName=NetQ?_1 Pin=Q?-1
+Added Net: Name=NetQ?_1
+Added Pin To Net: NetName=NetR?_2 Pin=U2-61
+Added Net: Name=NetR?_2
+Added Member To Class: ClassName=PSU Member=Component Q? BSS84
+Add Class Member: Failed to add class member : Component R? RC0402FR-07100RL
+Added Rule: Name=Schematic Supply Nets_2

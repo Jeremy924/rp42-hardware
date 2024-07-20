@@ -1,0 +1,5 @@
+Add Component: Footprint Not Found RC0402N_YAG
+Add Pin To Net: Unknown Pin: Pin R2-1
+Add Pin To Net: Unknown Pin: Pin R2-2
+Added Pin To Net: NetName=GND Pin=U1-23
+Add Class Member: Failed to add class member : Component R2 100K

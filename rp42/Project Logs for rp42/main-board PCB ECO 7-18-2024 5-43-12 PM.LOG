@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=5V USB Pin=J1-3
+Add Component: Footprint Not Found SOT23-6L_STM
+Add Component: Footprint Not Found RC0402N_YAG
+Add Pin To Net: Unknown Pin: Pin CR1-1
+Add Pin To Net: Unknown Pin: Pin CR1-2
+Add Pin To Net: Unknown Pin: Pin CR1-3
+Add Pin To Net: Unknown Pin: Pin CR1-4
+Add Pin To Net: Unknown Pin: Pin CR1-5
+Add Pin To Net: Unknown Pin: Pin R1-2
+Added Pin To Net: NetName=GND Pin=U1-23
+Change Net Name : Old Net Name=NetR1_1 New Net Name=NetU2_62
+Added Pin To Net: NetName=NetCR1_6 Pin=J1-3
+Added Net: Name=NetCR1_6
+Added Pin To Net: NetName=NetR1_1 Pin=U5-4
+Added Net: Name=NetR1_1
+Add Class Member: Failed to add class member : Component CR1 USBLC6-4SC6
+Add Class Member: Failed to add class member : Component R1 470R

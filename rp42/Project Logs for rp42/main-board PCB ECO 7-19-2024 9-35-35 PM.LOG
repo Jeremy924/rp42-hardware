@@ -1,0 +1,8 @@
+Add Component: Footprint Not Found BAT-HLD-001-THM_TEC
+Add Pin To Net: Unknown Pin: Pin B1-1
+Add Pin To Net: Unknown Pin: Pin B1-2
+Add Pin To Net: Unknown Pin: Pin B1-3
+Add Pin To Net: Unknown Pin: Pin B1-4
+Add Pin To Net: Unknown Pin: Pin B1-5
+Added Pin To Net: NetName=GND Pin=U1-23
+Add Class Member: Failed to add class member : Component B1 BAT-HLD-001-THM

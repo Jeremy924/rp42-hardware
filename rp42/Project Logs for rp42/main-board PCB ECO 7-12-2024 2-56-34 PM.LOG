@@ -1,0 +1,86 @@
+Added Component: Designator=U1(INTERFACE)
+Add Component: Footprint Not Found SOIC-8_5P28X5P28_WIN
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C6-2
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin C9-1
+Add Pin To Net: Unknown Pin: Pin C9-2
+Add Pin To Net: Unknown Pin: Pin C10-1
+Add Pin To Net: Unknown Pin: Pin C10-2
+Add Pin To Net: Unknown Pin: Pin C11-1
+Add Pin To Net: Unknown Pin: Pin C11-2
+Add Pin To Net: Unknown Pin: Pin C12-1
+Add Pin To Net: Unknown Pin: Pin C12-2
+Add Pin To Net: Unknown Pin: Pin C13-1
+Add Pin To Net: Unknown Pin: Pin C13-2
+Add Pin To Net: Unknown Pin: Pin C14-1
+Add Pin To Net: Unknown Pin: Pin C14-2
+Add Pin To Net: Unknown Pin: Pin C15-1
+Add Pin To Net: Unknown Pin: Pin C15-2
+Add Pin To Net: Unknown Pin: Pin C16-1
+Add Pin To Net: Unknown Pin: Pin C16-2
+Added Pin To Net: NetName=NetC8_2 Pin=U1-21
+Added Pin To Net: NetName=NetC7_2 Pin=U1-22
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Pin To Net: NetName=NetC6_2 Pin=U1-23
+Added Pin To Net: NetName=NetC5_2 Pin=U1-24
+Added Pin To Net: NetName=NetC4_2 Pin=U1-25
+Added Pin To Net: NetName=GND Pin=U1-26
+Added Pin To Net: NetName=NetC2_2 Pin=U1-27
+Added Pin To Net: NetName=NetC2_1 Pin=U1-28
+Added Pin To Net: NetName=NetC1_2 Pin=U1-29
+Added Pin To Net: NetName=NetC1_1 Pin=U1-30
+Added Pin To Net: NetName=NetC3_2 Pin=U1-31
+Added Pin To Net: NetName=NetC3_2 Pin=U1-32
+Added Pin To Net: NetName=VCC Pin=U1-34
+Added Pin To Net: NetName=VCC Pin=U1-35
+Added Pin To Net: NetName=NetU1_36 Pin=U1-36
+Added Pin To Net: NetName=NetU1_37 Pin=U1-37
+Added Pin To Net: NetName=NetU1_38 Pin=U1-38
+Added Pin To Net: NetName=NetU1_39 Pin=U1-39
+Added Pin To Net: NetName=NetU1_40 Pin=U1-40
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-3
+Add Pin To Net: Unknown Pin: Pin U3-4
+Add Pin To Net: Unknown Pin: Pin U3-5
+Add Pin To Net: Unknown Pin: Pin U3-6
+Add Pin To Net: Unknown Pin: Pin U3-7
+Add Pin To Net: Unknown Pin: Pin X1-1
+Add Pin To Net: Unknown Pin: Pin X1-2
+Add Pin To Net: Unknown Pin: Pin X2-1
+Add Pin To Net: Unknown Pin: Pin X2-2
+Add Net: Net with name "ROW5" already exists
+Add Class Member: Failed to add class member : Component C1 Capacitor
+Add Class Member: Failed to add class member : Component C2 Capacitor
+Add Class Member: Failed to add class member : Component C3 Capacitor
+Add Class Member: Failed to add class member : Component C4 Capacitor
+Add Class Member: Failed to add class member : Component C5 Capacitor
+Add Class Member: Failed to add class member : Component C6 Capacitor
+Add Class Member: Failed to add class member : Component C7 Capacitor
+Add Class Member: Failed to add class member : Component C8 Capacitor
+Add Class Member: Failed to add class member : Component C9 Capacitor
+Add Class Member: Failed to add class member : Component C10 Capacitor
+Add Class Member: Failed to add class member : Component C11 Capacitor
+Add Class Member: Failed to add class member : Component C12 Capacitor
+Add Class Member: Failed to add class member : Component C13 Capacitor
+Add Class Member: Failed to add class member : Component C14 Capacitor
+Add Class Member: Failed to add class member : Component C15 Capacitor
+Add Class Member: Failed to add class member : Component C16 Capacitor
+Added Member To Class: ClassName=screen Member=Component U1 INTERFACE
+Add Class Member: Failed to add class member : Component U3 W25Q64JVSSIQ
+Add Class Member: Failed to add class member : Component X1 Crystal
+Add Class Member: Failed to add class member : Component X2 Crystal
