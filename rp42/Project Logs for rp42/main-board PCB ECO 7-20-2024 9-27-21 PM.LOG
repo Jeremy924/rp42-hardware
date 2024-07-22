@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=PSU Member=B2
+Removed Member From Class: ClassName=PSU Member=B3
+Removed Member From Class: ClassName=PSU Member=B4
+Change Component Designator: OldDesignator=B5 NewDesignator=B1
+Added Pin To Net: NetName=GND Pin=U1-23

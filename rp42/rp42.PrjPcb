@@ -84,6 +84,23 @@ GenerateClassCluster=0
 DocumentUniqueId=IUYTFCUD
 
 [Document3]
+DocumentPath=..\..\..\..\..\..\Downloads\BAT_HLD_001_THM (2)\AltiumDesigner\BAT-HLD-001-THM.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BRMOWFOM
+
+[Document4]
 DocumentPath=button.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +117,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OHLCIKED
 
-[Document4]
+[Document5]
+DocumentPath=..\..\..\..\..\..\Downloads\BAT_HLD_001_THM (2)\AltiumDesigner\BAT-HLD-001-THM.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JMJGUVPG
+
+[Document6]
 DocumentPath=button.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DMLOKDYQ
 
-[Document5]
+[Document7]
 DocumentPath=EADOGM132W.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FAQQPOER
 
-[Document6]
+[Document8]
 DocumentPath=EADOGM132W.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JUKKRJYP
 
-[Document7]
+[Document9]
 DocumentPath=rp42.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document10]
 DocumentPath=screen.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BMHNZXUX
 
-[Document9]
+[Document11]
 DocumentPath=mcu.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CSKRCAQF
 
-[Document10]
+[Document12]
 DocumentPath=PSU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +253,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WFHXISLA
 
-[Document11]
+[Document13]
 DocumentPath=main-board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1

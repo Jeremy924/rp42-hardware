@@ -1,0 +1,8 @@
+Added Component: Designator=R3(RC0402N_YAG)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=VBAT Pin=R3-2
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Member To Class: ClassName=PSU Member=Component R3 100K

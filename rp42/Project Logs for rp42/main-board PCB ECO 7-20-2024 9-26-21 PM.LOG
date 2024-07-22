@@ -1,0 +1,28 @@
+Change Component Designator: OldDesignator=   NewDesignator=S35
+Added Component: Designator=B2(BAT-HLD-001-THM_TEC)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=B3(BAT-HLD-001-THM_TEC)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=B4(BAT-HLD-001-THM_TEC)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=B5(BAT-HLD-001-THM_TEC)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBAT Pin=B5-1
+Added Pin To Net: NetName=VBAT Pin=B5-2
+Added Pin To Net: NetName=VBAT Pin=B5-3
+Added Pin To Net: NetName=VBAT Pin=B5-4
+Added Pin To Net: NetName=GND Pin=B5-5
+Added Pin To Net: NetName=NetC6_1 Pin=U1-23
+Add Class Member: Failed to add class member : Component B1 BAT-HLD-001-THM
+Added Member To Class: ClassName=PSU Member=Component B2 BAT-HLD-001-THM
+Added Member To Class: ClassName=PSU Member=Component B3 BAT-HLD-001-THM
+Added Member To Class: ClassName=PSU Member=Component B4 BAT-HLD-001-THM
+Added Member To Class: ClassName=PSU Member=Component B5 BAT-HLD-001-THM

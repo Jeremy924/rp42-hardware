@@ -1,0 +1,16 @@
+Added Pin To Net: NetName=NetC6_1 Pin=U1-23
+Change Net Name : Old Net Name=NetCR1_4 New Net Name=D- IN
+Change Net Name : Old Net Name=NetCR1_6 New Net Name=D+ IN
+Change Net Name : Old Net Name=NetR2_1 New Net Name=PWR_PERPH
+Change Net Name : Old Net Name=NetU1_36 New Net Name=LCD_SI
+Change Net Name : Old Net Name=NetU1_37 New Net Name=LCD_SCL
+Change Net Name : Old Net Name=NetU1_38 New Net Name=LCD_A0
+Change Net Name : Old Net Name=NetU1_39 New Net Name=LCD_RES
+Change Net Name : Old Net Name=NetU1_40 New Net Name=LCD_CS
+Change Net Name : Old Net Name=NetU2_22 New Net Name=FLASH_IO3
+Change Net Name : Old Net Name=NetU2_23 New Net Name=FLASH_IO2
+Change Net Name : Old Net Name=NetU2_26 New Net Name=FLASH_IO1
+Change Net Name : Old Net Name=NetU2_27 New Net Name=FLASH_IO0
+Change Net Name : Old Net Name=NetU2_29 New Net Name=FLASH_CLK
+Change Net Name : Old Net Name=NetU2_30 New Net Name=FLASH_NCS
+Change Net Name : Old Net Name=NetU2_62 New Net Name=PWR_SRC
