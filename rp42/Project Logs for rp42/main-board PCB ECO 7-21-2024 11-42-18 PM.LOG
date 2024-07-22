@@ -1,0 +1,13 @@
+Added Component: Designator=J2(bypass_conn)
+Added Pin To Net: NetName=3V Pin=J2-1
+Added Pin To Net: NetName=3V PERPH Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=GND Pin=J2-6
+Added Pin To Net: NetName=NetC6_1 Pin=U1-23
+Added Pin To Net: NetName=USART_RX Pin=J2-5
+Added Pin To Net: NetName=USART_RX Pin=U2-59
+Added Net: Name=USART_RX
+Added Pin To Net: NetName=USART_TX Pin=J2-4
+Added Pin To Net: NetName=USART_TX Pin=U2-58
+Added Net: Name=USART_TX
+Added Member To Class: ClassName=mcu Member=Component J2 bypass_conn
