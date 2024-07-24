@@ -1,0 +1,4 @@
+Change Footprint: Footprint Not Found SOT-363_DIO
+Added Pin To Net: NetName=VCC Pin=U1-23
+Added Net: Name=VCC
+Added Rule: Name=Schematic Supply Nets_1

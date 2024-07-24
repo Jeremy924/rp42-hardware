@@ -1,0 +1,11 @@
+Change Component Comment : Designator=U5 Old Comment=Comment New Comment=BAT54DW-7-F
+Change component parameters: Designator = "U5" ("U5"); Footprint = "SOT-363_DIO"; UniqueID = "\YSVZJKHB\JWPQCFWR" ("\YSVZJKHB\JWPQCFWR")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Diodes Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC6_1 Pin=U1-23
+Added Pin To Net: NetName=5V USB Pin=U5-1
+Added Pin To Net: NetName=NetC9_2 Pin=U5-3
+Added Pin To Net: NetName=VBAT Pin=U5-4
+Added Pin To Net: NetName=NetC9_2 Pin=U5-6
+Added Member To Class: ClassName=PSU Member=Component U5 BAT54DW-7-F

@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator= NewDesignator=U6
+Add Component: Footprint Not Found SOT-363_DIO
+Added Pin To Net: NetName=NetC6_1 Pin=U1-23
+Add Pin To Net: Unknown Pin: Pin U5-1
+Add Pin To Net: Unknown Pin: Pin U5-3
+Add Pin To Net: Unknown Pin: Pin U5-4
+Add Pin To Net: Unknown Pin: Pin U5-6
+Add Class Member: Failed to add class member : Component U5 BAT54DW-7-F

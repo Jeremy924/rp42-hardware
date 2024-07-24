@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=3V Pin=J2-1
+Removed Pin From Net: NetName=3V PERPH Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J2-3
+Removed Pin From Net: NetName=USART_TX Pin=J2-4
+Removed Pin From Net: NetName=USART_RX Pin=J2-5
+Removed Pin From Net: NetName=GND Pin=J2-6
+Added Component: Designator=J?(bypass_conn)
+Added Pin To Net: NetName=3V Pin=J?-1
+Added Pin To Net: NetName=3V PERPH Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-3
+Added Pin To Net: NetName=USART_RX Pin=J?-4
+Added Pin To Net: NetName=USART_TX Pin=J?-5
+Added Pin To Net: NetName=GND Pin=J?-6
+Added Pin To Net: NetName=GND Pin=U1-23
+Added Member To Class: ClassName=mcu Member=Component J? bypass_conn
