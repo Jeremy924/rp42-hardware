@@ -1,0 +1,431 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD24\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">7/22/2024</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">4:46:35 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc" class="file"><acronym title="C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc">C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">49</td></tr>
+</table>
+</td>
+</table><a name="ID41SNL54CDS3ZOSUBEYEOZMFGXPOB3CRN0Y433GGCJADUXYPLNAGG"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0MWNX42ZEGL3E3Q3MGNV5KUE1PD3SRL5XHRIFABBZWLMMA3K5C1O">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKY1MMWIFGFOUC53HN2T5CRRJSLHFTJEW5C5XHOP4RQSG4VTNZNLG">Matched Lengths(Tolerance=100mil) (All)</a></td>
+<td class="column2">49</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">49</td>
+</tr>
+</table><br><a name="IDKY1MMWIFGFOUC53HN2T5CRRJSLHFTJEW5C5XHOP4RQSG4VTNZNLG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Matched Lengths(Tolerance=100mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3665.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3665.5mil|Absolute=True">Matched Net Lengths: Between Net 3V PERPH And Net ROW6 Length:0mil is not within 100mil tolerance of Length:6304.824mil (6204.824mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3675.811mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3675.811mil|Absolute=True">Matched Net Lengths: Between Net 3V And Net ROW6 Length:0mil is not within 100mil tolerance of Length:6304.824mil (6204.824mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3920mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3920mil|Absolute=True">Matched Net Lengths: Between Net 5V USB And Net ROW6 Length:0mil is not within 100mil tolerance of Length:6304.824mil (6204.824mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3341.315mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3341.315mil|Absolute=True">Matched Net Lengths: Between Net COL0 And Net ROW6 Length:5203.788mil is not within 100mil tolerance of Length:6304.824mil (1001.036mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3361mil|Absolute=True">Matched Net Lengths: Between Net COL1 And Net ROW6 Length:4812.889mil is not within 100mil tolerance of Length:6304.824mil (1391.935mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3380.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3380.685mil|Absolute=True">Matched Net Lengths: Between Net COL2 And Net ROW6 Length:5151.225mil is not within 100mil tolerance of Length:6304.824mil (1053.599mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3400.37mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3400.37mil|Absolute=True">Matched Net Lengths: Between Net COL3 And Net ROW6 Length:5164.708mil is not within 100mil tolerance of Length:6304.824mil (1040.116mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3595.035mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3595.035mil|Absolute=True">Matched Net Lengths: Between Net COL5 And Net ROW6 Length:3491.627mil is not within 100mil tolerance of Length:6304.824mil (2713.197mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3720.803mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3720.803mil|Absolute=True">Matched Net Lengths: Between Net D- IN And Net ROW6 Length:95.074mil is not within 100mil tolerance of Length:6304.824mil (6109.749mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3744mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3744mil|Absolute=True">Matched Net Lengths: Between Net D- And Net ROW6 Length:709.405mil is not within 100mil tolerance of Length:6304.824mil (5495.419mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3681.48mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3681.48mil|Absolute=True">Matched Net Lengths: Between Net D+ IN And Net ROW6 Length:108.447mil is not within 100mil tolerance of Length:6304.824mil (6096.377mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3664mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3664mil|Absolute=True">Matched Net Lengths: Between Net D+ And Net ROW6 Length:635.846mil is not within 100mil tolerance of Length:6304.824mil (5568.977mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3765.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3765.5mil|Absolute=True">Matched Net Lengths: Between Net FLASH_CLK And Net ROW6 Length:639.925mil is not within 100mil tolerance of Length:6304.824mil (5564.899mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3815.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3815.5mil|Absolute=True">Matched Net Lengths: Between Net FLASH_IO0 And Net ROW6 Length:538.91mil is not within 100mil tolerance of Length:6304.824mil (5665.914mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3839.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3839.5mil|Absolute=True">Matched Net Lengths: Between Net FLASH_IO1 And Net ROW6 Length:963.903mil is not within 100mil tolerance of Length:6304.824mil (5240.92mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3765.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3765.5mil|Absolute=True">Matched Net Lengths: Between Net FLASH_IO2 And Net ROW6 Length:769.678mil is not within 100mil tolerance of Length:6304.824mil (5435.145mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3715.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3715.5mil|Absolute=True">Matched Net Lengths: Between Net FLASH_IO3 And Net ROW6 Length:432.907mil is not within 100mil tolerance of Length:6304.824mil (5771.917mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3900.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3900.5mil|Absolute=True">Matched Net Lengths: Between Net FLASH_NCS And Net ROW6 Length:1189.035mil is not within 100mil tolerance of Length:6304.824mil (5015.788mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3858.646mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=13mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3858.646mil|Absolute=True">Matched Net Lengths: Between Net GND And Net ROW6 Length:0mil is not within 100mil tolerance of Length:6304.824mil (6204.824mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3498.795mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3498.795mil|Absolute=True">Matched Net Lengths: Between Net LCD_A0 And Net ROW6 Length:1215.882mil is not within 100mil tolerance of Length:6304.824mil (4988.941mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3479.11mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3479.11mil|Absolute=True">Matched Net Lengths: Between Net LCD_CS And Net ROW6 Length:828.729mil is not within 100mil tolerance of Length:6304.824mil (5376.095mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3459.425mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3459.425mil|Absolute=True">Matched Net Lengths: Between Net LCD_RES And Net ROW6 Length:890.612mil is not within 100mil tolerance of Length:6304.824mil (5314.212mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net LCD_SCL And Net ROW6 Length:410.051mil is not within 100mil tolerance of Length:6304.824mil (5794.773mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net LCD_SI And Net ROW6 Length:393.743mil is not within 100mil tolerance of Length:6304.824mil (5811.08mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC1_1 And Net ROW6 Length:135.684mil is not within 100mil tolerance of Length:6304.824mil (6069.14mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC1_2 And Net ROW6 Length:106.547mil is not within 100mil tolerance of Length:6304.824mil (6098.277mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3551.244mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3551.244mil|Absolute=True">Matched Net Lengths: Between Net NetC11_2 And Net ROW6 Length:623.088mil is not within 100mil tolerance of Length:6304.824mil (5581.735mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC12_2 And Net ROW6 Length:710.761mil is not within 100mil tolerance of Length:6304.824mil (5494.062mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC2_1 And Net ROW6 Length:105.322mil is not within 100mil tolerance of Length:6304.824mil (6099.502mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC2_2 And Net ROW6 Length:98.225mil is not within 100mil tolerance of Length:6304.824mil (6106.599mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC3_1 And Net ROW6 Length:354.247mil is not within 100mil tolerance of Length:6304.824mil (5850.577mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC4_1 And Net ROW6 Length:66.373mil is not within 100mil tolerance of Length:6304.824mil (6138.451mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC5_1 And Net ROW6 Length:96.719mil is not within 100mil tolerance of Length:6304.824mil (6108.105mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC6_1 And Net ROW6 Length:110mil is not within 100mil tolerance of Length:6304.824mil (6094.824mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC7_1 And Net ROW6 Length:100.269mil is not within 100mil tolerance of Length:6304.824mil (6104.555mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetC8_1 And Net ROW6 Length:88.371mil is not within 100mil tolerance of Length:6304.824mil (6116.453mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3567.181mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3567.181mil|Absolute=True">Matched Net Lengths: Between Net NetC9_2 And Net ROW6 Length:1079.629mil is not within 100mil tolerance of Length:6304.824mil (5125.195mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net NetR1_1 And Net ROW6 Length:54.71mil is not within 100mil tolerance of Length:6304.824mil (6150.114mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net PWR_PERPH And Net ROW6 Length:1416.863mil is not within 100mil tolerance of Length:6304.824mil (4787.961mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3660mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3660mil|Absolute=True">Matched Net Lengths: Between Net PWR_SRC And Net ROW6 Length:1799.583mil is not within 100mil tolerance of Length:6304.824mil (4405.241mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3459.425mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3459.425mil|Absolute=True">Matched Net Lengths: Between Net ROW0 And Net ROW6 Length:2888.528mil is not within 100mil tolerance of Length:6304.824mil (3316.295mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3479.11mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3479.11mil|Absolute=True">Matched Net Lengths: Between Net ROW1 And Net ROW6 Length:2888.528mil is not within 100mil tolerance of Length:6304.824mil (3316.295mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3498.795mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3498.795mil|Absolute=True">Matched Net Lengths: Between Net ROW2 And Net ROW6 Length:2694.528mil is not within 100mil tolerance of Length:6304.824mil (3510.295mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3595.035mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3595.035mil|Absolute=True">Matched Net Lengths: Between Net ROW3 And Net ROW6 Length:3004.997mil is not within 100mil tolerance of Length:6304.824mil (3199.827mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3595.035mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3595.035mil|Absolute=True">Matched Net Lengths: Between Net ROW4 And Net ROW6 Length:3004.998mil is not within 100mil tolerance of Length:6304.824mil (3199.826mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3345mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3345mil|Absolute=True">Matched Net Lengths: Between Net ROW5 And Net ROW6 Length:3205.115mil is not within 100mil tolerance of Length:6304.824mil (2999.709mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net ROW6 And Net USART_RX Length:739.055mil is not within 100mil tolerance of Length:6304.824mil (5465.769mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3329mil|Absolute=True">Matched Net Lengths: Between Net ROW6 And Net USART_TX Length:819.37mil is not within 100mil tolerance of Length:6304.824mil (5385.454mil short) </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3794.949mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=29mil|Location2.X=2754mil|Location1.Y=21mil|Location2.Y=3794.949mil|Absolute=True">Matched Net Lengths: Between Net ROW6 And Net VBAT Length:0mil is not within 100mil tolerance of Length:6304.824mil (6204.824mil short) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

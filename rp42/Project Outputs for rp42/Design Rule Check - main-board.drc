@@ -1,0 +1,64 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc
+Date     : 7/22/2024
+Time     : 4:46:35 PM
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=100mil) (All)
+   Violation between Matched Net Lengths: Between Net 3V PERPH And Net ROW6 Length:0mil is not within 100mil tolerance of Length:6304.824mil (6204.824mil short) 
+   Violation between Matched Net Lengths: Between Net 3V And Net ROW6 Length:0mil is not within 100mil tolerance of Length:6304.824mil (6204.824mil short) 
+   Violation between Matched Net Lengths: Between Net 5V USB And Net ROW6 Length:0mil is not within 100mil tolerance of Length:6304.824mil (6204.824mil short) 
+   Violation between Matched Net Lengths: Between Net COL0 And Net ROW6 Length:5203.788mil is not within 100mil tolerance of Length:6304.824mil (1001.036mil short) 
+   Violation between Matched Net Lengths: Between Net COL1 And Net ROW6 Length:4812.889mil is not within 100mil tolerance of Length:6304.824mil (1391.935mil short) 
+   Violation between Matched Net Lengths: Between Net COL2 And Net ROW6 Length:5151.225mil is not within 100mil tolerance of Length:6304.824mil (1053.599mil short) 
+   Violation between Matched Net Lengths: Between Net COL3 And Net ROW6 Length:5164.708mil is not within 100mil tolerance of Length:6304.824mil (1040.116mil short) 
+   Violation between Matched Net Lengths: Between Net COL5 And Net ROW6 Length:3491.627mil is not within 100mil tolerance of Length:6304.824mil (2713.197mil short) 
+   Violation between Matched Net Lengths: Between Net D- IN And Net ROW6 Length:95.074mil is not within 100mil tolerance of Length:6304.824mil (6109.749mil short) 
+   Violation between Matched Net Lengths: Between Net D- And Net ROW6 Length:709.405mil is not within 100mil tolerance of Length:6304.824mil (5495.419mil short) 
+   Violation between Matched Net Lengths: Between Net D+ IN And Net ROW6 Length:108.447mil is not within 100mil tolerance of Length:6304.824mil (6096.377mil short) 
+   Violation between Matched Net Lengths: Between Net D+ And Net ROW6 Length:635.846mil is not within 100mil tolerance of Length:6304.824mil (5568.977mil short) 
+   Violation between Matched Net Lengths: Between Net FLASH_CLK And Net ROW6 Length:639.925mil is not within 100mil tolerance of Length:6304.824mil (5564.899mil short) 
+   Violation between Matched Net Lengths: Between Net FLASH_IO0 And Net ROW6 Length:538.91mil is not within 100mil tolerance of Length:6304.824mil (5665.914mil short) 
+   Violation between Matched Net Lengths: Between Net FLASH_IO1 And Net ROW6 Length:963.903mil is not within 100mil tolerance of Length:6304.824mil (5240.92mil short) 
+   Violation between Matched Net Lengths: Between Net FLASH_IO2 And Net ROW6 Length:769.678mil is not within 100mil tolerance of Length:6304.824mil (5435.145mil short) 
+   Violation between Matched Net Lengths: Between Net FLASH_IO3 And Net ROW6 Length:432.907mil is not within 100mil tolerance of Length:6304.824mil (5771.917mil short) 
+   Violation between Matched Net Lengths: Between Net FLASH_NCS And Net ROW6 Length:1189.035mil is not within 100mil tolerance of Length:6304.824mil (5015.788mil short) 
+   Violation between Matched Net Lengths: Between Net GND And Net ROW6 Length:0mil is not within 100mil tolerance of Length:6304.824mil (6204.824mil short) 
+   Violation between Matched Net Lengths: Between Net LCD_A0 And Net ROW6 Length:1215.882mil is not within 100mil tolerance of Length:6304.824mil (4988.941mil short) 
+   Violation between Matched Net Lengths: Between Net LCD_CS And Net ROW6 Length:828.729mil is not within 100mil tolerance of Length:6304.824mil (5376.095mil short) 
+   Violation between Matched Net Lengths: Between Net LCD_RES And Net ROW6 Length:890.612mil is not within 100mil tolerance of Length:6304.824mil (5314.212mil short) 
+   Violation between Matched Net Lengths: Between Net LCD_SCL And Net ROW6 Length:410.051mil is not within 100mil tolerance of Length:6304.824mil (5794.773mil short) 
+   Violation between Matched Net Lengths: Between Net LCD_SI And Net ROW6 Length:393.743mil is not within 100mil tolerance of Length:6304.824mil (5811.08mil short) 
+   Violation between Matched Net Lengths: Between Net NetC1_1 And Net ROW6 Length:135.684mil is not within 100mil tolerance of Length:6304.824mil (6069.14mil short) 
+   Violation between Matched Net Lengths: Between Net NetC1_2 And Net ROW6 Length:106.547mil is not within 100mil tolerance of Length:6304.824mil (6098.277mil short) 
+   Violation between Matched Net Lengths: Between Net NetC11_2 And Net ROW6 Length:623.088mil is not within 100mil tolerance of Length:6304.824mil (5581.735mil short) 
+   Violation between Matched Net Lengths: Between Net NetC12_2 And Net ROW6 Length:710.761mil is not within 100mil tolerance of Length:6304.824mil (5494.062mil short) 
+   Violation between Matched Net Lengths: Between Net NetC2_1 And Net ROW6 Length:105.322mil is not within 100mil tolerance of Length:6304.824mil (6099.502mil short) 
+   Violation between Matched Net Lengths: Between Net NetC2_2 And Net ROW6 Length:98.225mil is not within 100mil tolerance of Length:6304.824mil (6106.599mil short) 
+   Violation between Matched Net Lengths: Between Net NetC3_1 And Net ROW6 Length:354.247mil is not within 100mil tolerance of Length:6304.824mil (5850.577mil short) 
+   Violation between Matched Net Lengths: Between Net NetC4_1 And Net ROW6 Length:66.373mil is not within 100mil tolerance of Length:6304.824mil (6138.451mil short) 
+   Violation between Matched Net Lengths: Between Net NetC5_1 And Net ROW6 Length:96.719mil is not within 100mil tolerance of Length:6304.824mil (6108.105mil short) 
+   Violation between Matched Net Lengths: Between Net NetC6_1 And Net ROW6 Length:110mil is not within 100mil tolerance of Length:6304.824mil (6094.824mil short) 
+   Violation between Matched Net Lengths: Between Net NetC7_1 And Net ROW6 Length:100.269mil is not within 100mil tolerance of Length:6304.824mil (6104.555mil short) 
+   Violation between Matched Net Lengths: Between Net NetC8_1 And Net ROW6 Length:88.371mil is not within 100mil tolerance of Length:6304.824mil (6116.453mil short) 
+   Violation between Matched Net Lengths: Between Net NetC9_2 And Net ROW6 Length:1079.629mil is not within 100mil tolerance of Length:6304.824mil (5125.195mil short) 
+   Violation between Matched Net Lengths: Between Net NetR1_1 And Net ROW6 Length:54.71mil is not within 100mil tolerance of Length:6304.824mil (6150.114mil short) 
+   Violation between Matched Net Lengths: Between Net PWR_PERPH And Net ROW6 Length:1416.863mil is not within 100mil tolerance of Length:6304.824mil (4787.961mil short) 
+   Violation between Matched Net Lengths: Between Net PWR_SRC And Net ROW6 Length:1799.583mil is not within 100mil tolerance of Length:6304.824mil (4405.241mil short) 
+   Violation between Matched Net Lengths: Between Net ROW0 And Net ROW6 Length:2888.528mil is not within 100mil tolerance of Length:6304.824mil (3316.295mil short) 
+   Violation between Matched Net Lengths: Between Net ROW1 And Net ROW6 Length:2888.528mil is not within 100mil tolerance of Length:6304.824mil (3316.295mil short) 
+   Violation between Matched Net Lengths: Between Net ROW2 And Net ROW6 Length:2694.528mil is not within 100mil tolerance of Length:6304.824mil (3510.295mil short) 
+   Violation between Matched Net Lengths: Between Net ROW3 And Net ROW6 Length:3004.997mil is not within 100mil tolerance of Length:6304.824mil (3199.827mil short) 
+   Violation between Matched Net Lengths: Between Net ROW4 And Net ROW6 Length:3004.998mil is not within 100mil tolerance of Length:6304.824mil (3199.826mil short) 
+   Violation between Matched Net Lengths: Between Net ROW5 And Net ROW6 Length:3205.115mil is not within 100mil tolerance of Length:6304.824mil (2999.709mil short) 
+   Violation between Matched Net Lengths: Between Net ROW6 And Net USART_RX Length:739.055mil is not within 100mil tolerance of Length:6304.824mil (5465.769mil short) 
+   Violation between Matched Net Lengths: Between Net ROW6 And Net USART_TX Length:819.37mil is not within 100mil tolerance of Length:6304.824mil (5385.454mil short) 
+   Violation between Matched Net Lengths: Between Net ROW6 And Net VBAT Length:0mil is not within 100mil tolerance of Length:6304.824mil (6204.824mil short) 
+Rule Violations :49
+
+
+Violations Detected : 49
+Waived Violations : 0
+Time Elapsed        : 00:00:01

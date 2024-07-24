@@ -304,6 +304,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HYWCQGWG
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for rp42\Design Rule Check - main-board.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
