@@ -1,0 +1,222 @@
+Added Component: Designator=S1(PCBComponent_1)
+Added Component: Designator=S2(PCBComponent_1)
+Added Component: Designator=S3(PCBComponent_1)
+Added Component: Designator=S4(PCBComponent_1)
+Added Component: Designator=S5(PCBComponent_1)
+Added Component: Designator=S6(PCBComponent_1)
+Added Component: Designator=S7(PCBComponent_1)
+Added Component: Designator=S8(PCBComponent_1)
+Added Component: Designator=S9(PCBComponent_1)
+Added Component: Designator=S10(PCBComponent_1)
+Added Component: Designator=S11(PCBComponent_1)
+Added Component: Designator=S12(PCBComponent_1)
+Added Component: Designator=S13(PCBComponent_1)
+Added Component: Designator=S14(PCBComponent_1)
+Added Component: Designator=S15(PCBComponent_1)
+Added Component: Designator=S16(PCBComponent_1)
+Added Component: Designator=S17(PCBComponent_1)
+Added Component: Designator=S18(PCBComponent_1)
+Added Component: Designator=S19(PCBComponent_1)
+Added Component: Designator=S20(PCBComponent_1)
+Added Component: Designator=S21(PCBComponent_1)
+Added Component: Designator=S22(PCBComponent_1)
+Added Component: Designator=S23(PCBComponent_1)
+Added Component: Designator=S24(PCBComponent_1)
+Added Component: Designator=S25(PCBComponent_1)
+Added Component: Designator=S26(PCBComponent_1)
+Added Component: Designator=S27(PCBComponent_1)
+Added Component: Designator=S28(PCBComponent_1)
+Added Component: Designator=S29(PCBComponent_1)
+Added Component: Designator=S30(PCBComponent_1)
+Added Component: Designator=S31(PCBComponent_1)
+Added Component: Designator=S32(PCBComponent_1)
+Added Component: Designator=S33(PCBComponent_1)
+Added Component: Designator=S34(PCBComponent_1)
+Added Component: Designator=S35(PCBComponent_1)
+Added Component: Designator=S36(PCBComponent_1)
+Added Component: Designator=S37(PCBComponent_1)
+Added Pin To Net: NetName=ROW0 Pin=S1-1
+Added Pin To Net: NetName=ROW0 Pin=S1-1
+Added Pin To Net: NetName=COL0 Pin=S1-2
+Added Pin To Net: NetName=COL0 Pin=S1-2
+Added Pin To Net: NetName=ROW0 Pin=S2-1
+Added Pin To Net: NetName=ROW0 Pin=S2-1
+Added Pin To Net: NetName=COL1 Pin=S2-2
+Added Pin To Net: NetName=COL1 Pin=S2-2
+Added Pin To Net: NetName=ROW0 Pin=S3-1
+Added Pin To Net: NetName=ROW0 Pin=S3-1
+Added Pin To Net: NetName=COL2 Pin=S3-2
+Added Pin To Net: NetName=COL2 Pin=S3-2
+Added Pin To Net: NetName=ROW0 Pin=S4-1
+Added Pin To Net: NetName=ROW0 Pin=S4-1
+Added Pin To Net: NetName=COL3 Pin=S4-2
+Added Pin To Net: NetName=COL3 Pin=S4-2
+Added Pin To Net: NetName=ROW0 Pin=S5-1
+Added Pin To Net: NetName=ROW0 Pin=S5-1
+Added Pin To Net: NetName=COL4 Pin=S5-2
+Added Pin To Net: NetName=COL4 Pin=S5-2
+Added Pin To Net: NetName=ROW0 Pin=S6-1
+Added Pin To Net: NetName=ROW0 Pin=S6-1
+Added Pin To Net: NetName=COL5 Pin=S6-2
+Added Pin To Net: NetName=COL5 Pin=S6-2
+Added Pin To Net: NetName=ROW1 Pin=S7-1
+Added Pin To Net: NetName=ROW1 Pin=S7-1
+Added Pin To Net: NetName=COL0 Pin=S7-2
+Added Pin To Net: NetName=COL0 Pin=S7-2
+Added Pin To Net: NetName=ROW1 Pin=S8-1
+Added Pin To Net: NetName=ROW1 Pin=S8-1
+Added Pin To Net: NetName=COL1 Pin=S8-2
+Added Pin To Net: NetName=COL1 Pin=S8-2
+Added Pin To Net: NetName=ROW1 Pin=S9-1
+Added Pin To Net: NetName=ROW1 Pin=S9-1
+Added Pin To Net: NetName=COL2 Pin=S9-2
+Added Pin To Net: NetName=COL2 Pin=S9-2
+Added Pin To Net: NetName=ROW1 Pin=S10-1
+Added Pin To Net: NetName=ROW1 Pin=S10-1
+Added Pin To Net: NetName=COL3 Pin=S10-2
+Added Pin To Net: NetName=COL3 Pin=S10-2
+Added Pin To Net: NetName=ROW1 Pin=S11-1
+Added Pin To Net: NetName=ROW1 Pin=S11-1
+Added Pin To Net: NetName=COL4 Pin=S11-2
+Added Pin To Net: NetName=COL4 Pin=S11-2
+Added Pin To Net: NetName=ROW1 Pin=S12-1
+Added Pin To Net: NetName=ROW1 Pin=S12-1
+Added Pin To Net: NetName=COL5 Pin=S12-2
+Added Pin To Net: NetName=COL5 Pin=S12-2
+Added Pin To Net: NetName=ROW2 Pin=S13-1
+Added Pin To Net: NetName=ROW2 Pin=S13-1
+Added Pin To Net: NetName=COL0 Pin=S13-2
+Added Pin To Net: NetName=COL0 Pin=S13-2
+Added Pin To Net: NetName=ROW2 Pin=S14-1
+Added Pin To Net: NetName=ROW2 Pin=S14-1
+Added Pin To Net: NetName=COL2 Pin=S14-2
+Added Pin To Net: NetName=COL2 Pin=S14-2
+Added Pin To Net: NetName=ROW2 Pin=S15-1
+Added Pin To Net: NetName=ROW2 Pin=S15-1
+Added Pin To Net: NetName=COL3 Pin=S15-2
+Added Pin To Net: NetName=COL3 Pin=S15-2
+Added Pin To Net: NetName=ROW2 Pin=S16-1
+Added Pin To Net: NetName=ROW2 Pin=S16-1
+Added Pin To Net: NetName=COL4 Pin=S16-2
+Added Pin To Net: NetName=COL4 Pin=S16-2
+Added Pin To Net: NetName=ROW2 Pin=S17-1
+Added Pin To Net: NetName=ROW2 Pin=S17-1
+Added Pin To Net: NetName=COL5 Pin=S17-2
+Added Pin To Net: NetName=COL5 Pin=S17-2
+Added Pin To Net: NetName=ROW3 Pin=S18-1
+Added Pin To Net: NetName=ROW3 Pin=S18-1
+Added Pin To Net: NetName=COL0 Pin=S18-2
+Added Pin To Net: NetName=COL0 Pin=S18-2
+Added Pin To Net: NetName=ROW3 Pin=S19-1
+Added Pin To Net: NetName=ROW3 Pin=S19-1
+Added Pin To Net: NetName=COL1 Pin=S19-2
+Added Pin To Net: NetName=COL1 Pin=S19-2
+Added Pin To Net: NetName=ROW3 Pin=S20-1
+Added Pin To Net: NetName=ROW3 Pin=S20-1
+Added Pin To Net: NetName=COL2 Pin=S20-2
+Added Pin To Net: NetName=COL2 Pin=S20-2
+Added Pin To Net: NetName=ROW3 Pin=S21-1
+Added Pin To Net: NetName=ROW3 Pin=S21-1
+Added Pin To Net: NetName=COL3 Pin=S21-2
+Added Pin To Net: NetName=COL3 Pin=S21-2
+Added Pin To Net: NetName=ROW3 Pin=S22-1
+Added Pin To Net: NetName=ROW3 Pin=S22-1
+Added Pin To Net: NetName=COL4 Pin=S22-2
+Added Pin To Net: NetName=COL4 Pin=S22-2
+Added Pin To Net: NetName=ROW4 Pin=S23-1
+Added Pin To Net: NetName=ROW4 Pin=S23-1
+Added Pin To Net: NetName=COL0 Pin=S23-2
+Added Pin To Net: NetName=COL0 Pin=S23-2
+Added Pin To Net: NetName=ROW4 Pin=S24-1
+Added Pin To Net: NetName=ROW4 Pin=S24-1
+Added Pin To Net: NetName=COL1 Pin=S24-2
+Added Pin To Net: NetName=COL1 Pin=S24-2
+Added Pin To Net: NetName=ROW4 Pin=S25-1
+Added Pin To Net: NetName=ROW4 Pin=S25-1
+Added Pin To Net: NetName=COL2 Pin=S25-2
+Added Pin To Net: NetName=COL2 Pin=S25-2
+Added Pin To Net: NetName=ROW4 Pin=S26-1
+Added Pin To Net: NetName=ROW4 Pin=S26-1
+Added Pin To Net: NetName=COL3 Pin=S26-2
+Added Pin To Net: NetName=COL3 Pin=S26-2
+Added Pin To Net: NetName=ROW4 Pin=S27-1
+Added Pin To Net: NetName=ROW4 Pin=S27-1
+Added Pin To Net: NetName=COL4 Pin=S27-2
+Added Pin To Net: NetName=COL4 Pin=S27-2
+Added Pin To Net: NetName=ROW5 Pin=S28-1
+Added Pin To Net: NetName=ROW5 Pin=S28-1
+Added Pin To Net: NetName=COL0 Pin=S28-2
+Added Pin To Net: NetName=COL0 Pin=S28-2
+Added Pin To Net: NetName=ROW5 Pin=S29-1
+Added Pin To Net: NetName=ROW5 Pin=S29-1
+Added Pin To Net: NetName=COL1 Pin=S29-2
+Added Pin To Net: NetName=COL1 Pin=S29-2
+Added Pin To Net: NetName=ROW5 Pin=S30-1
+Added Pin To Net: NetName=ROW5 Pin=S30-1
+Added Pin To Net: NetName=COL2 Pin=S30-2
+Added Pin To Net: NetName=COL2 Pin=S30-2
+Added Pin To Net: NetName=ROW5 Pin=S31-1
+Added Pin To Net: NetName=ROW5 Pin=S31-1
+Added Pin To Net: NetName=COL3 Pin=S31-2
+Added Pin To Net: NetName=COL3 Pin=S31-2
+Added Pin To Net: NetName=ROW5 Pin=S32-1
+Added Pin To Net: NetName=ROW5 Pin=S32-1
+Added Pin To Net: NetName=COL4 Pin=S32-2
+Added Pin To Net: NetName=COL4 Pin=S32-2
+Added Pin To Net: NetName=ROW6 Pin=S33-1
+Added Pin To Net: NetName=ROW6 Pin=S33-1
+Added Pin To Net: NetName=COL0 Pin=S33-2
+Added Pin To Net: NetName=COL0 Pin=S33-2
+Added Pin To Net: NetName=ROW6 Pin=S34-1
+Added Pin To Net: NetName=ROW6 Pin=S34-1
+Added Pin To Net: NetName=COL1 Pin=S34-2
+Added Pin To Net: NetName=COL1 Pin=S34-2
+Added Pin To Net: NetName=ROW6 Pin=S35-1
+Added Pin To Net: NetName=ROW6 Pin=S35-1
+Added Pin To Net: NetName=COL2 Pin=S35-2
+Added Pin To Net: NetName=COL2 Pin=S35-2
+Added Pin To Net: NetName=ROW6 Pin=S36-1
+Added Pin To Net: NetName=ROW6 Pin=S36-1
+Added Pin To Net: NetName=COL3 Pin=S36-2
+Added Pin To Net: NetName=COL3 Pin=S36-2
+Added Pin To Net: NetName=ROW6 Pin=S37-1
+Added Pin To Net: NetName=ROW6 Pin=S37-1
+Added Pin To Net: NetName=COL4 Pin=S37-2
+Added Pin To Net: NetName=COL4 Pin=S37-2
+Added Member To Class: ClassName=keyboard Member=Component S1 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S2 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S3 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S4 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S5 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S6 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S7 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S8 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S9 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S10 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S11 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S12 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S13 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S14 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S15 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S16 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S17 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S18 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S19 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S20 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S21 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S22 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S23 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S24 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S25 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S26 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S27 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S28 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S29 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S30 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S31 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S32 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S33 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S34 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S35 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S36 temp_switch
+Added Member To Class: ClassName=keyboard Member=Component S37 temp_switch
