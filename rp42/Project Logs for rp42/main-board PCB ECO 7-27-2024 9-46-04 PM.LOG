@@ -1,0 +1,7 @@
+Change Component Comment : Designator=C11 Old Comment=CL10C200JB8NNNC New Comment=20pF
+Change Component Comment : Designator=C12 Old Comment=CL10C200JB8NNNC New Comment=20pF
+Change Component Description : Designator=C11 Old Description=No Description Available New Description=CL10C200JB8NNNC
+Change Component Description : Designator=C12 Old Description=No Description Available New Description=CL10C200JB8NNNC
+Add Pin To Net: Unknown Pin: Pin C21-1
+Add Pin To Net: Unknown Pin: Pin C21-2
+Add Class Member: Failed to add class member : Component C21 10uF

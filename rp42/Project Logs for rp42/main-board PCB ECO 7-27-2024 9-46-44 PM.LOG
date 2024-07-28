@@ -1,0 +1,7 @@
+Added Component: Designator=C21(CAP_CL10_SAM)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Member To Class: ClassName=mcu Member=Component C21 10uF

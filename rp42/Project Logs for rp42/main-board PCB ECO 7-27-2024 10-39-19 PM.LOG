@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetR2_2 Pin=R3-1
+Removed Pin From Net: NetName=GND Pin=R3-2
+Change Comment: Unknown Component : R3
+Change component parameters: Component "R3" not found
+Add Pin To Net: Unknown Pin: Pin R3-1
+Add Pin To Net: Unknown Pin: Pin R3-2

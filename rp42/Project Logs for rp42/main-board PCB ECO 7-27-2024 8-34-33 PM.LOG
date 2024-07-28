@@ -1,0 +1,99 @@
+Removed Pin From Net: NetName=NetC3_1 Pin=U1-31
+Change Component Comment : Designator=U1 Old Comment=INTERFACE New Comment=EADOGM132W
+Change Component Designator: OldDesignator=M2 NewDesignator=m1
+Change Component Description : Designator=J2 Old Description= New Description=Bypass connector for power supply and backup chip programming
+Change Component Description : Designator=U1 Old Description= New Description=EADOGM132W.
+https://www.digikey.com/en/products/detail/display-visions/EA-DOGM132L-5/4896710
+Change Component Description : Designator=U4 Old Description=3V Linear Voltage Regulator New Description=3V Linear Voltage Regulator.
+https://www.digikey.com/en/products/detail/microchip-technology/MIC5365-3-0YC5-TR/1868092?s=N4IgTCBcDaILIEkDCBWAzANhQWjQOgAYBNVbAFQCUQBdAXyA
+Change Component Description : Designator=U6 Old Description=3V Linear Voltage Regulator New Description=3V Linear Voltage Regulator.
+https://www.digikey.com/en/products/detail/microchip-technology/MIC5365-3-0YC5-TR/1868092?s=N4IgTCBcDaILIEkDCBWAzANhQWjQOgAYBNVbAFQCUQBdAXyA
+Change Component Description : Designator=C10 Old Description=CL10B105KP8NNNC New Description=CL10B105KP8NNNC
+https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604?s=N4IgTCBcDaIMIBkCMAGAQqgrAaQAoA4A5YuEAXQF8g
+Change Component Description : Designator=C9 Old Description=CL10B105KP8NNNC New Description=CL10B105KP8NNNC.
+https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604?s=N4IgTCBcDaIMIBkCMAGAQqgrAaQAoA4A5YuEAXQF8g
+Change Component Description : Designator=C19 Old Description=CL10B105KP8NNNC New Description=CL10B105KP8NNNC.
+https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604?s=N4IgTCBcDaIMIBkCMAGAQqgrAaQAoA4A5YuEAXQF8g
+Change Component Description : Designator=U5 Old Description=No Description Available New Description=2 Diode Array, 30V@100mA, Surface mount. Schottky. 6-TSSOP.
+https://www.diodes.com/assets/Datasheets/BAT54DW.pdf
+Change Component Description : Designator=B1 Old Description=No Description Available New Description=CR2032 Battery holder. 2.7V-3V. 
+
+https://www.digikey.com/en/products/detail/te-connectivity-linx/BAT-HLD-001-THM/3044009
+Change Component Description : Designator=U2 Old Description=No Description Available New Description=STM32 - 256KB, 128KB RAM, USB OTG, QUAD SPI
+
+https://www.st.com/en/microcontrollers-microprocessors/stm32l475rc.html#overview
+Change Component Description : Designator=U3 Old Description=No Description Available New Description=W25Q64JVSSIQ. 64MBit Quad-SPI flash
+Change component parameters: Designator = "B1" ("B1"); Footprint = "BAT-HLD-001-THM_TEC"; UniqueID = "\YSVZJKHB\TZHAZLLW" ("\YSVZJKHB\TZHAZLLW")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "BAT-HLD-001-THM-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C9" ("C9"); Footprint = "CAPC1608X90N"; UniqueID = "\YSVZJKHB\DFARXOZC" ("\YSVZJKHB\DFARXOZC")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CL10B105KP8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "CL10B105KP8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10" ("C10"); Footprint = "CAPC1608X90N"; UniqueID = "\YSVZJKHB\WNHBTGTA" ("\YSVZJKHB\WNHBTGTA")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CL10B105KP8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "CL10B105KP8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C19" ("C19"); Footprint = "CAPC1608X90N"; UniqueID = "\YSVZJKHB\GEJVQYZO" ("\YSVZJKHB\GEJVQYZO")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CL10B105KP8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "CL10B105KP8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "C20" ("C20"); Footprint = "CAPC1608X90N"; UniqueID = "\YSVZJKHB\VYFUSXOL" ("\YSVZJKHB\VYFUSXOL")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CL10B105KP8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Avnet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "CL10B105KP8NNNC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U4" ("U4"); Footprint = "SC-70_C5_MCH"; UniqueID = "\YSVZJKHB\OJFTPHKK" ("\YSVZJKHB\OJFTPHKK")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Microchip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "55AC2794"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U5" ("U5"); Footprint = "SOT-363_DIO"; UniqueID = "\YSVZJKHB\JWPQCFWR" ("\YSVZJKHB\JWPQCFWR")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Diodes Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Arrow Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "BAT54DW-7-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U6" ("U6"); Footprint = "SC-70_C5_MCH"; UniqueID = "\YSVZJKHB\KEQBMDHI" ("\YSVZJKHB\KEQBMDHI")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Microchip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Newark"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "55AC2794"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=C17(CAPC1608X90N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CL10B105KP8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_2 Pin=C17-1
+Added Pin To Net: NetName=NetC17_2 Pin=C17-2
+Added Pin To Net: NetName=NetC17_2 Pin=U1-31
+Added Net: Name=NetC17_2
+Added Member To Class: ClassName=PSU Member=Component B1 BAT-HLD-001-THM
+Added Member To Class: ClassName=screen Member=Component C17 1uF
+Added Member To Class: ClassName=main-board Member=Component m1 m2

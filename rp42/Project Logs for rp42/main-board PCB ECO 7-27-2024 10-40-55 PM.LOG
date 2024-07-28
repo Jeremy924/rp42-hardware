@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=R3 Old Footprint=STA_RMCF0603_STP New Footprint=RC0603N_YAG
+Added Member To Class: ClassName=mcu Member=Component R3 82K

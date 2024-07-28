@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=D+ Pin=CR1-1
+Removed Pin From Net: NetName=D- Pin=CR1-3
+Removed Pin From Net: NetName=GND Pin=J1-4
+Added Component: Designator=C18(CAPC1005X55N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CL05B104KP5NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402 Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CL05B104KP5NNNC/Samsung%20Electro-Mechanics/view-part/1365387/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V USB Pin=C18-1
+Added Pin To Net: NetName=GND Pin=C18-2
+Added Pin To Net: NetName=D- Pin=CR1-4
+Added Pin To Net: NetName=D+ Pin=CR1-6
+Added Pin To Net: NetName=D- Pin=J1-2
+Added Pin To Net: NetName=D+ Pin=J1-3
+Added Member To Class: ClassName=main-board Member=Component C18 100nF
