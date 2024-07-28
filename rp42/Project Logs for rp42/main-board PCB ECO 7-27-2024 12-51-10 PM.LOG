@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetC12_2 Pin=Y1-1
+Removed Pin From Net: NetName=NetC11_2 Pin=Y1-2
+Removed Member From Class: ClassName=mcu Member=Y1
+Change Comment: Unknown Component : C11
+Change Comment: Unknown Component : C12
+Change Component Designator: OldDesignator=m2 NewDesignator=m1
+Change component parameters: Component "C11" not found
+Change component parameters: Component "C12" not found
+Add Pin To Net: Unknown Pin: Pin XTAL1-1
+Add Pin To Net: Unknown Pin: Pin XTAL1-2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=3-5V
+Added Member To Class: ClassName=main-board Member=Component m1 m2
+Added Member To Class: ClassName=main-board Member=Component m2
+Add Class Member: Failed to add class member : Component XTAL1 J49SMH-A-G-G-K-8M0
+Added Rule: Name=Schematic Supply Nets_1

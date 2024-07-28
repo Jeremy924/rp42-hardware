@@ -1,0 +1,22 @@
+Added Component: Designator=C11(CAP_CL10_SAM)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C12(CAP_CL10_SAM)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=XTAL1(XTAL_J49SMH-A-G-G-K-8M0_JAU)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Jauch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=NetC12_2 Pin=C12-2
+Added Pin To Net: NetName=NetC12_2 Pin=XTAL1-1
+Added Pin To Net: NetName=NetC11_2 Pin=XTAL1-2
+Added Member To Class: ClassName=mcu Member=Component C11 CL10C200JB8NNNC
+Added Member To Class: ClassName=mcu Member=Component C12 CL10C200JB8NNNC
+Added Member To Class: ClassName=main-board Member=Component m2
+Added Member To Class: ClassName=mcu Member=Component XTAL1 J49SMH-A-G-G-K-8M0

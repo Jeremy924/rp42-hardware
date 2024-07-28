@@ -1,0 +1,4 @@
+Added Component: Designator=m1(m2)
+Added Component: Designator=m2(m2)
+Added Member To Class: ClassName=main-board Member=Component m1 m2
+Added Member To Class: ClassName=main-board Member=Component m2
