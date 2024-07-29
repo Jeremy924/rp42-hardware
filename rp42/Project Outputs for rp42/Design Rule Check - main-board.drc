@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Jerem\OneDrive\Documents\career\my_projects\rp42\rp42\main-board.PcbDoc
 Date     : 7/28/2024
-Time     : 2:48:46 PM
+Time     : 8:00:29 PM
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
    Violation between Clearance Constraint: (0.051mm < 0.254mm) Between Pad C11-1(28.575mm,84.516mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
@@ -28,17 +28,13 @@ Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
    Violation between Clearance Constraint: (0.051mm < 0.254mm) Between Pad R3-1(67.45mm,98.806mm) on Bottom Layer And Region (0 hole(s)) Keep-Out Layer 
    Violation between Clearance Constraint: (0.051mm < 0.254mm) Between Pad R3-2(65.9mm,98.806mm) on Bottom Layer And Region (0 hole(s)) Bottom Layer 
    Violation between Clearance Constraint: (0.051mm < 0.254mm) Between Pad R3-2(65.9mm,98.806mm) on Bottom Layer And Region (0 hole(s)) Keep-Out Layer 
-   Violation between Clearance Constraint: (Collision < 0.254mm) Between Region (0 hole(s)) Keep-Out Layer And Track (28.575mm,77.985mm)(28.575mm,86.946mm) on Top Layer 
-   Violation between Clearance Constraint: (Collision < 0.254mm) Between Region (0 hole(s)) Keep-Out Layer And Track (28.575mm,77.985mm)(28.575mm,86.946mm) on Top Layer 
-Rule Violations :26
+Rule Violations :24
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C21-2(39.624mm,86.426mm) on Bottom Layer And Pad C13-1(41.529mm,86.565mm) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C20-1(25.011mm,77.216mm) on Bottom Layer And Pad U6-2(25.051mm,79.502mm) on Bottom Layer 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -71,60 +67,60 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Matched Lengths(Tolerance=2.54mm) (All)
-   Violation between Matched Net Lengths: Between Net 3-5V And Net ROW3 Length:0mm is not within 2.54mm tolerance of Length:177.931mm (175.391mm short) 
-   Violation between Matched Net Lengths: Between Net 3V PERPH And Net ROW3 Length:0mm is not within 2.54mm tolerance of Length:177.931mm (175.391mm short) 
-   Violation between Matched Net Lengths: Between Net 3V And Net ROW3 Length:0mm is not within 2.54mm tolerance of Length:177.931mm (175.391mm short) 
-   Violation between Matched Net Lengths: Between Net 5V USB And Net ROW3 Length:0mm is not within 2.54mm tolerance of Length:177.931mm (175.391mm short) 
-   Violation between Matched Net Lengths: Between Net COL0 And Net ROW3 Length:174.176mm is not within 2.54mm tolerance of Length:177.931mm (1.215mm short) 
-   Violation between Matched Net Lengths: Between Net COL1 And Net ROW3 Length:162.521mm is not within 2.54mm tolerance of Length:177.931mm (12.87mm short) 
-   Violation between Matched Net Lengths: Between Net COL2 And Net ROW3 Length:154.35mm is not within 2.54mm tolerance of Length:177.931mm (21.041mm short) 
-   Violation between Matched Net Lengths: Between Net COL3 And Net ROW3 Length:141.598mm is not within 2.54mm tolerance of Length:177.931mm (33.793mm short) 
-   Violation between Matched Net Lengths: Between Net COL4 And Net ROW3 Length:154.287mm is not within 2.54mm tolerance of Length:177.931mm (21.104mm short) 
-   Violation between Matched Net Lengths: Between Net COL5 And Net ROW3 Length:80.557mm is not within 2.54mm tolerance of Length:177.931mm (94.834mm short) 
-   Violation between Matched Net Lengths: Between Net D- And Net ROW3 Length:19.045mm is not within 2.54mm tolerance of Length:177.931mm (156.347mm short) 
-   Violation between Matched Net Lengths: Between Net D+ And Net ROW3 Length:18.075mm is not within 2.54mm tolerance of Length:177.931mm (157.316mm short) 
-   Violation between Matched Net Lengths: Between Net FLASH_CLK And Net ROW3 Length:22.29mm is not within 2.54mm tolerance of Length:177.931mm (153.101mm short) 
-   Violation between Matched Net Lengths: Between Net FLASH_IO0 And Net ROW3 Length:19.832mm is not within 2.54mm tolerance of Length:177.931mm (155.559mm short) 
-   Violation between Matched Net Lengths: Between Net FLASH_IO1 And Net ROW3 Length:21.755mm is not within 2.54mm tolerance of Length:177.931mm (153.636mm short) 
-   Violation between Matched Net Lengths: Between Net FLASH_IO2 And Net ROW3 Length:18.498mm is not within 2.54mm tolerance of Length:177.931mm (156.894mm short) 
-   Violation between Matched Net Lengths: Between Net FLASH_IO3 And Net ROW3 Length:19.114mm is not within 2.54mm tolerance of Length:177.931mm (156.278mm short) 
-   Violation between Matched Net Lengths: Between Net FLASH_NCS And Net ROW3 Length:30.288mm is not within 2.54mm tolerance of Length:177.931mm (145.104mm short) 
-   Violation between Matched Net Lengths: Between Net GND And Net ROW3 Length:0mm is not within 2.54mm tolerance of Length:177.931mm (175.391mm short) 
-   Violation between Matched Net Lengths: Between Net LCD_A0 And Net ROW3 Length:29.582mm is not within 2.54mm tolerance of Length:177.931mm (145.809mm short) 
-   Violation between Matched Net Lengths: Between Net LCD_CS And Net ROW3 Length:20.968mm is not within 2.54mm tolerance of Length:177.931mm (154.424mm short) 
-   Violation between Matched Net Lengths: Between Net LCD_RES And Net ROW3 Length:21.796mm is not within 2.54mm tolerance of Length:177.931mm (153.595mm short) 
-   Violation between Matched Net Lengths: Between Net LCD_SCL And Net ROW3 Length:9.365mm is not within 2.54mm tolerance of Length:177.931mm (166.026mm short) 
-   Violation between Matched Net Lengths: Between Net LCD_SI And Net ROW3 Length:10.547mm is not within 2.54mm tolerance of Length:177.931mm (164.844mm short) 
-   Violation between Matched Net Lengths: Between Net NetC1_1 And Net ROW3 Length:2.051mm is not within 2.54mm tolerance of Length:177.931mm (173.34mm short) 
-   Violation between Matched Net Lengths: Between Net NetC1_2 And Net ROW3 Length:4.438mm is not within 2.54mm tolerance of Length:177.931mm (170.953mm short) 
-   Violation between Matched Net Lengths: Between Net NetC11_2 And Net ROW3 Length:17.779mm is not within 2.54mm tolerance of Length:177.931mm (157.612mm short) 
-   Violation between Matched Net Lengths: Between Net NetC12_2 And Net ROW3 Length:18.193mm is not within 2.54mm tolerance of Length:177.931mm (157.199mm short) 
-   Violation between Matched Net Lengths: Between Net NetC17_2 And Net ROW3 Length:2.337mm is not within 2.54mm tolerance of Length:177.931mm (173.054mm short) 
-   Violation between Matched Net Lengths: Between Net NetC2_1 And Net ROW3 Length:2.675mm is not within 2.54mm tolerance of Length:177.931mm (172.716mm short) 
-   Violation between Matched Net Lengths: Between Net NetC2_2 And Net ROW3 Length:2.495mm is not within 2.54mm tolerance of Length:177.931mm (172.896mm short) 
-   Violation between Matched Net Lengths: Between Net NetC3_1 And Net ROW3 Length:8.677mm is not within 2.54mm tolerance of Length:177.931mm (166.714mm short) 
-   Violation between Matched Net Lengths: Between Net NetC4_1 And Net ROW3 Length:1.686mm is not within 2.54mm tolerance of Length:177.931mm (173.705mm short) 
-   Violation between Matched Net Lengths: Between Net NetC5_1 And Net ROW3 Length:2.457mm is not within 2.54mm tolerance of Length:177.931mm (172.935mm short) 
-   Violation between Matched Net Lengths: Between Net NetC6_1 And Net ROW3 Length:2.22mm is not within 2.54mm tolerance of Length:177.931mm (173.171mm short) 
-   Violation between Matched Net Lengths: Between Net NetC7_1 And Net ROW3 Length:2.547mm is not within 2.54mm tolerance of Length:177.931mm (172.844mm short) 
-   Violation between Matched Net Lengths: Between Net NetC8_1 And Net ROW3 Length:2.245mm is not within 2.54mm tolerance of Length:177.931mm (173.147mm short) 
-   Violation between Matched Net Lengths: Between Net NetR2_2 And Net ROW3 Length:26.598mm is not within 2.54mm tolerance of Length:177.931mm (148.793mm short) 
-   Violation between Matched Net Lengths: Between Net PWR_PERPH And Net ROW3 Length:34.881mm is not within 2.54mm tolerance of Length:177.931mm (140.51mm short) 
-   Violation between Matched Net Lengths: Between Net ROW0 And Net ROW3 Length:103.373mm is not within 2.54mm tolerance of Length:177.931mm (72.018mm short) 
-   Violation between Matched Net Lengths: Between Net ROW1 And Net ROW3 Length:115.754mm is not within 2.54mm tolerance of Length:177.931mm (59.637mm short) 
-   Violation between Matched Net Lengths: Between Net ROW2 And Net ROW3 Length:121.379mm is not within 2.54mm tolerance of Length:177.931mm (54.012mm short) 
-   Violation between Matched Net Lengths: Between Net ROW3 And Net ROW4 Length:167.798mm is not within 2.54mm tolerance of Length:177.931mm (7.593mm short) 
-   Violation between Matched Net Lengths: Between Net ROW3 And Net ROW5 Length:161.402mm is not within 2.54mm tolerance of Length:177.931mm (13.989mm short) 
-   Violation between Matched Net Lengths: Between Net ROW3 And Net ROW6 Length:164.279mm is not within 2.54mm tolerance of Length:177.931mm (11.112mm short) 
-   Violation between Matched Net Lengths: Between Net ROW3 And Net USART_RX Length:38.563mm is not within 2.54mm tolerance of Length:177.931mm (136.828mm short) 
-   Violation between Matched Net Lengths: Between Net ROW3 And Net USART_TX Length:31.518mm is not within 2.54mm tolerance of Length:177.931mm (143.874mm short) 
-   Violation between Matched Net Lengths: Between Net ROW3 And Net VBAT Length:0mm is not within 2.54mm tolerance of Length:177.931mm (175.391mm short) 
+   Violation between Matched Net Lengths: Between Net 3-5V And Net ROW3 Length:0mm is not within 2.54mm tolerance of Length:174.432mm (171.892mm short) 
+   Violation between Matched Net Lengths: Between Net 3V PERPH And Net ROW3 Length:0mm is not within 2.54mm tolerance of Length:174.432mm (171.892mm short) 
+   Violation between Matched Net Lengths: Between Net 3V And Net ROW3 Length:0mm is not within 2.54mm tolerance of Length:174.432mm (171.892mm short) 
+   Violation between Matched Net Lengths: Between Net 5V USB And Net ROW3 Length:0mm is not within 2.54mm tolerance of Length:174.432mm (171.892mm short) 
+   Violation between Matched Net Lengths: Between Net COL0 And Net ROW3 Length:171.761mm is not within 2.54mm tolerance of Length:174.432mm (0.131mm short) 
+   Violation between Matched Net Lengths: Between Net COL1 And Net ROW3 Length:162.521mm is not within 2.54mm tolerance of Length:174.432mm (9.371mm short) 
+   Violation between Matched Net Lengths: Between Net COL2 And Net ROW3 Length:154.35mm is not within 2.54mm tolerance of Length:174.432mm (17.542mm short) 
+   Violation between Matched Net Lengths: Between Net COL3 And Net ROW3 Length:141.437mm is not within 2.54mm tolerance of Length:174.432mm (30.456mm short) 
+   Violation between Matched Net Lengths: Between Net COL4 And Net ROW3 Length:154.109mm is not within 2.54mm tolerance of Length:174.432mm (17.783mm short) 
+   Violation between Matched Net Lengths: Between Net COL5 And Net ROW3 Length:79.223mm is not within 2.54mm tolerance of Length:174.432mm (92.669mm short) 
+   Violation between Matched Net Lengths: Between Net D- And Net ROW3 Length:19.208mm is not within 2.54mm tolerance of Length:174.432mm (152.685mm short) 
+   Violation between Matched Net Lengths: Between Net D+ And Net ROW3 Length:18.075mm is not within 2.54mm tolerance of Length:174.432mm (153.817mm short) 
+   Violation between Matched Net Lengths: Between Net FLASH_CLK And Net ROW3 Length:18.968mm is not within 2.54mm tolerance of Length:174.432mm (152.924mm short) 
+   Violation between Matched Net Lengths: Between Net FLASH_IO0 And Net ROW3 Length:20.077mm is not within 2.54mm tolerance of Length:174.432mm (151.816mm short) 
+   Violation between Matched Net Lengths: Between Net FLASH_IO1 And Net ROW3 Length:21.755mm is not within 2.54mm tolerance of Length:174.432mm (150.137mm short) 
+   Violation between Matched Net Lengths: Between Net FLASH_IO2 And Net ROW3 Length:18.498mm is not within 2.54mm tolerance of Length:174.432mm (153.394mm short) 
+   Violation between Matched Net Lengths: Between Net FLASH_IO3 And Net ROW3 Length:19.114mm is not within 2.54mm tolerance of Length:174.432mm (152.778mm short) 
+   Violation between Matched Net Lengths: Between Net FLASH_NCS And Net ROW3 Length:30.881mm is not within 2.54mm tolerance of Length:174.432mm (141.011mm short) 
+   Violation between Matched Net Lengths: Between Net GND And Net ROW3 Length:0mm is not within 2.54mm tolerance of Length:174.432mm (171.892mm short) 
+   Violation between Matched Net Lengths: Between Net LCD_A0 And Net ROW3 Length:29.355mm is not within 2.54mm tolerance of Length:174.432mm (142.537mm short) 
+   Violation between Matched Net Lengths: Between Net LCD_CS And Net ROW3 Length:20.741mm is not within 2.54mm tolerance of Length:174.432mm (151.151mm short) 
+   Violation between Matched Net Lengths: Between Net LCD_RES And Net ROW3 Length:21.57mm is not within 2.54mm tolerance of Length:174.432mm (150.323mm short) 
+   Violation between Matched Net Lengths: Between Net LCD_SCL And Net ROW3 Length:9.365mm is not within 2.54mm tolerance of Length:174.432mm (162.527mm short) 
+   Violation between Matched Net Lengths: Between Net LCD_SI And Net ROW3 Length:10.547mm is not within 2.54mm tolerance of Length:174.432mm (161.345mm short) 
+   Violation between Matched Net Lengths: Between Net NetC1_1 And Net ROW3 Length:2.051mm is not within 2.54mm tolerance of Length:174.432mm (169.841mm short) 
+   Violation between Matched Net Lengths: Between Net NetC1_2 And Net ROW3 Length:4.438mm is not within 2.54mm tolerance of Length:174.432mm (167.454mm short) 
+   Violation between Matched Net Lengths: Between Net NetC11_2 And Net ROW3 Length:17.779mm is not within 2.54mm tolerance of Length:174.432mm (154.113mm short) 
+   Violation between Matched Net Lengths: Between Net NetC12_2 And Net ROW3 Length:18.193mm is not within 2.54mm tolerance of Length:174.432mm (153.7mm short) 
+   Violation between Matched Net Lengths: Between Net NetC17_2 And Net ROW3 Length:2.337mm is not within 2.54mm tolerance of Length:174.432mm (169.555mm short) 
+   Violation between Matched Net Lengths: Between Net NetC2_1 And Net ROW3 Length:2.675mm is not within 2.54mm tolerance of Length:174.432mm (169.217mm short) 
+   Violation between Matched Net Lengths: Between Net NetC2_2 And Net ROW3 Length:2.495mm is not within 2.54mm tolerance of Length:174.432mm (169.397mm short) 
+   Violation between Matched Net Lengths: Between Net NetC3_1 And Net ROW3 Length:8.677mm is not within 2.54mm tolerance of Length:174.432mm (163.215mm short) 
+   Violation between Matched Net Lengths: Between Net NetC4_1 And Net ROW3 Length:1.686mm is not within 2.54mm tolerance of Length:174.432mm (170.206mm short) 
+   Violation between Matched Net Lengths: Between Net NetC5_1 And Net ROW3 Length:2.457mm is not within 2.54mm tolerance of Length:174.432mm (169.435mm short) 
+   Violation between Matched Net Lengths: Between Net NetC6_1 And Net ROW3 Length:2.22mm is not within 2.54mm tolerance of Length:174.432mm (169.672mm short) 
+   Violation between Matched Net Lengths: Between Net NetC7_1 And Net ROW3 Length:2.547mm is not within 2.54mm tolerance of Length:174.432mm (169.345mm short) 
+   Violation between Matched Net Lengths: Between Net NetC8_1 And Net ROW3 Length:2.245mm is not within 2.54mm tolerance of Length:174.432mm (169.648mm short) 
+   Violation between Matched Net Lengths: Between Net NetR2_2 And Net ROW3 Length:26.598mm is not within 2.54mm tolerance of Length:174.432mm (145.294mm short) 
+   Violation between Matched Net Lengths: Between Net PWR_PERPH And Net ROW3 Length:34.881mm is not within 2.54mm tolerance of Length:174.432mm (137.011mm short) 
+   Violation between Matched Net Lengths: Between Net ROW0 And Net ROW3 Length:103.373mm is not within 2.54mm tolerance of Length:174.432mm (68.519mm short) 
+   Violation between Matched Net Lengths: Between Net ROW1 And Net ROW3 Length:115.754mm is not within 2.54mm tolerance of Length:174.432mm (56.138mm short) 
+   Violation between Matched Net Lengths: Between Net ROW2 And Net ROW3 Length:121.379mm is not within 2.54mm tolerance of Length:174.432mm (50.513mm short) 
+   Violation between Matched Net Lengths: Between Net ROW3 And Net ROW4 Length:168.779mm is not within 2.54mm tolerance of Length:174.432mm (3.113mm short) 
+   Violation between Matched Net Lengths: Between Net ROW3 And Net ROW5 Length:162.013mm is not within 2.54mm tolerance of Length:174.432mm (9.879mm short) 
+   Violation between Matched Net Lengths: Between Net ROW3 And Net ROW6 Length:164.279mm is not within 2.54mm tolerance of Length:174.432mm (7.613mm short) 
+   Violation between Matched Net Lengths: Between Net ROW3 And Net USART_RX Length:38.563mm is not within 2.54mm tolerance of Length:174.432mm (133.329mm short) 
+   Violation between Matched Net Lengths: Between Net ROW3 And Net USART_TX Length:31.518mm is not within 2.54mm tolerance of Length:174.432mm (140.375mm short) 
+   Violation between Matched Net Lengths: Between Net ROW3 And Net VBAT Length:0mm is not within 2.54mm tolerance of Length:174.432mm (171.892mm short) 
 Rule Violations :48
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 76
+Violations Detected : 72
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
