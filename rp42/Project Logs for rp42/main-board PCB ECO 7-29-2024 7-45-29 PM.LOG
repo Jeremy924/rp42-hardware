@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=M2 NewDesignator=m1
+Change Net Name : Old Net Name=NetC4_1 New Net Name=V4
+Change Net Name : Old Net Name=NetC5_1 New Net Name=V3
+Change Net Name : Old Net Name=NetC6_1 New Net Name=V2
+Change Net Name : Old Net Name=NetC7_1 New Net Name=V1
+Change Net Name : Old Net Name=NetC8_1 New Net Name=V0
+Added Member To Class: ClassName=main-board Member=Component m2

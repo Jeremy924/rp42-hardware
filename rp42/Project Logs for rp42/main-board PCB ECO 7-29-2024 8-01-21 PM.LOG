@@ -1,0 +1,22 @@
+Added Component: Designator=U1(INTERFACE)
+Added Pin To Net: NetName=V0 Pin=U1-21
+Added Pin To Net: NetName=V1 Pin=U1-22
+Added Pin To Net: NetName=V2 Pin=U1-23
+Added Pin To Net: NetName=V3 Pin=U1-24
+Added Pin To Net: NetName=V4 Pin=U1-25
+Added Pin To Net: NetName=GND Pin=U1-26
+Added Pin To Net: NetName=C2N Pin=U1-27
+Added Pin To Net: NetName=C2P Pin=U1-28
+Added Pin To Net: NetName=C1P Pin=U1-29
+Added Pin To Net: NetName=C1N Pin=U1-30
+Added Pin To Net: NetName=C3P Pin=U1-31
+Added Pin To Net: NetName=VOUT Pin=U1-32
+Added Pin To Net: NetName=GND Pin=U1-33
+Added Pin To Net: NetName=3V PERPH Pin=U1-34
+Added Pin To Net: NetName=3V PERPH Pin=U1-35
+Added Pin To Net: NetName=LCD_SI Pin=U1-36
+Added Pin To Net: NetName=LCD_SCL Pin=U1-37
+Added Pin To Net: NetName=LCD_A0 Pin=U1-38
+Added Pin To Net: NetName=LCD_RES Pin=U1-39
+Added Pin To Net: NetName=LCD_CS Pin=U1-40
+Added Member To Class: ClassName=screen Member=Component U1 INTERFACE
