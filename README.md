@@ -14,15 +14,16 @@ There are some hardware bugs that were discovered while testing the PCB, but the
 Hardware Changes
 - [ ] Add pad for battery terminal
       - temporary solution: scrape off surface to access battery trace
-- [ ] Add button for BOOT0
+- [X] Add button for BOOT0
       - temporary solution: break current BOOT0 trace and connect it to backup RX trace. Then use RX connector to pull BOOT0 either high or low.
-- [ ] Add button for RES
+- [X] Add button for RES
       - temporary solution: disconnect power.
 - [ ] **Add debug port**
 - [ ] move buttons closer together
-- [ ] connect VBAT to 3V rather than directly to battery. In its current state, if USB is connected and battery is not, then VBAT will be 0V, which is outside of recommended operating conditions.
+- [X] connect VBAT to 3V rather than directly to battery. In its current state, if USB is connected and battery is not, then VBAT will be 0V, which is outside of recommended operating conditions.
 - [ ] move components further away from battery so that battery does not hit them if pushed in too far
-- [ ] add pull up resistor for external flash NCS pin so that it is pulled high while STM32 is booting. 
+- [X] add pull up resistor for external flash NCS pin so that it is pulled high while STM32 is booting.
+- [X] add pull up resistor for on button so that mcu can be powered off and button will still be able to trigger interrupt
 
 ### Software Status
 Currently, the software is able to control all of the components on the calculator. Additionally, the software is capable of connecting as a virtual com port and supports a basic terminal system.
