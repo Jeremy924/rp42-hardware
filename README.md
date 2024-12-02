@@ -12,7 +12,7 @@ The calculator uses a STM32L475 microcontroller connected to a 8MB QSPI Flash. T
 08/11/2024 - Test code is executed on the microcontroller, which showed that all the buttons and the LCD were working correctly. <br>
 ![image](https://github.com/user-attachments/assets/a73ca306-a018-498c-a43d-8846f27db169)
 <br>
-<i>In the image shown above, whenever a key is pressed, the number corresponding to the key was displayed on the screen. The image shows that all the buttons were pressed and read correctly by the microcontroller.</i>
+<i>In the test shown above, whenever a key is pressed, the number corresponding to the key that was pressed was displayed on the screen. The image shows that all the buttons were read correctly by the microcontroller.</i>
 <br>The jumper wire in the image above is used to connect the UART RX pin to either GND or 3V. In the original PCB design, the BOOT0 pin on the STM32 was directly connected to 3V, however this did
 not work because BOOT0 must be low in order to execute user code, even if the USB DFU is used to execute code. To correct this issue, the trace connected to the BOOT0 was broken, and the trace connected to the UART RX pin was broken. Becaues the traces were very close to each other, some solder was used to bridge the gap between the UART port and the BOOT0 pin. This way, the UART RX connector could be 
 used to pull BOOT0 to low or high. 
