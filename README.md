@@ -24,7 +24,7 @@ used to pull BOOT0 to low or high.
 
 ### Deadlines
 12/08/2024 - Run Free42 on the calculator<br>
-12/10/2024 - Complete 0.0.5 and order PCB <b>with SWD port</b>
+~~12/10/2024 - Complete 0.0.5 and order PCB <b>with SWD port</b>~~
 
 ## Schematics for 0.0.5
 ### Top Module
