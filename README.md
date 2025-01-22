@@ -14,17 +14,17 @@ The calculator uses a STM32L475 microcontroller connected to a 8MB QSPI Flash. T
 <br>
 <i>In the test shown above, whenever a key is pressed, the number corresponding to the key that was pressed was displayed on the screen. The image shows that all the buttons were read correctly by the microcontroller.</i>
 <br>The jumper wire in the image above is used to connect the UART RX pin to either GND or 3V. In the original PCB design, the BOOT0 pin on the STM32 was directly connected to 3V, however this did
-not work because BOOT0 must be low in order to execute user code, even if the USB DFU is used to execute code. To correct this issue, the trace connected to the BOOT0 was broken, and the trace connected to the UART RX pin was broken. Becaues the traces were very close to each other, some solder was used to bridge the gap between the UART port and the BOOT0 pin. This way, the UART RX connector could be 
+not work because BOOT0 must be low in order to execute user code, even if the USB DFU is used to execute code. To correct this issue, the trace connected to the BOOT0 was broken, and the trace connected to the UART RX pin was broken. Because the traces were very close to each other, some solder was used to bridge the gap between the UART port and the BOOT0 pin. This way, the UART RX connector could be 
 used to pull BOOT0 to low or high. 
 <br><br>
 08/21/2024 - STM32 can read and write to Flash drive through QSPI interface. <br>
 08/21/2024 - Set up basic command line interface over USB VCP to make debugging easier, and created "frw" (flash read-write tool) to control flash. <br>
 ![image](https://github.com/user-attachments/assets/4bdc0d40-bb66-44ad-8ca9-dc76b7e29fa9)
-<br><i>In the test shown above, thas flash read-write tool was used to write "Hello world" to the flash and then read it back. The test shows that the hardware and software for the flash is working correctly</i><br>
-
-### Deadlines
-12/08/2024 - Run Free42 on the calculator<br>
-~~12/10/2024 - Complete 0.0.5 and order PCB <b>with SWD port</b>~~
+<br><i>In the test shown above, the flash read-write tool was used to write "Hello world" to the flash and then read it back. The test shows that the hardware and software for the flash is working correctly</i><br>
+12/10/2024 - Complete 0.0.5 and order PCB <b>with SWD port</b><br>
+01/22/2025 - Ran Free42 on RP42. <br>
+![image](https://github.com/user-attachments/assets/f321241e-22e6-4157-a1bd-e3c60fc14e56)
+<br>
 
 ## Schematics for 0.0.5
 ### Top Module
