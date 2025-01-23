@@ -40,6 +40,8 @@ used to pull BOOT0 to low or high.
 ### PCB 0.0.5
 ![image](https://github.com/user-attachments/assets/ecac55cf-ab38-429f-ba24-589ba693ef6a)
 
+## Hardware Changes for version 0.0.6
+- [ ] Move COL0 input to a pin supporting powerdown interrupt.
 ## Hardware Changes for version 0.0.5
 - [X] Add pad for battery terminal
       - temporary solution for 0.0.4: scrape off surface to access battery trace
@@ -55,5 +57,4 @@ used to pull BOOT0 to low or high.
 - [X] add pull up resistor for on button so that mcu can be powered off and button will still be able to trigger interrupt
 
 ### Software Status
-Currently, the software is able to control all of the components on the calculator. Additionally, the software is capable of connecting as a virtual com port and supports a basic command line interface.
-The software is currently not ready to run Free42 yet. 
+RP-42 is able to perform all mathematical operations in Free42. See (Free42)[github.com/Jerem924/free42) for current status. 
