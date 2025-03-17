@@ -1,7 +1,8 @@
 # RP-42
 The goal of RP-42 is to develop an affordable calculator that can run [Free42](https://github.com/Jeremy924/free42). The target cost for this was initially $20, but the final calculator costs slightly under $30. <br>
 The calculator uses a STM32L475 microcontroller connected to a 8MB QSPI Flash. The operating system is stored on the STM32's internal 256KB Flash, while the Free42 application code is stored on the external flash drive. The QSPI interface can be memory mapped on the STM32, so the application code can be executed on the flash drive without copying to the RAM. 
-<br>
+<br><br>
+More information about RP-42 can be found on the RP-42 website [here](https://jeremy924.github.io/rp42/index.html).
 
 ## Development Timeline
 07/06/2024 - Started designing PCB<br>
